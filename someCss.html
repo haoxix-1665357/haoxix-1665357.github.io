@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="anExternal.css">
+  <style>
+    body {
+      background-color: beige;
+    }
+    p.a {
+      font: 15px arial, sans-serif;
+    }
+
+    p.b {
+      font: italic bold 12px/30px Georgia, serif;
+    }
+    h1 {
+      border: 5px dotted rgba(22, 68, 219, 0.76);
+    }
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #rcorners2 {
+      border-radius: 25px;
+      border: 2px solid #73AD21;
+      padding: 20px; 
+      width: 200px;
+      height: 150px;  
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+  </style>
+</head>
+<body>
+
+    <h1>Linda Xu</h1>
+
+    <p class="a"> This is Linda Xu</p>
+
+    <p class="b">I come from Beijing, China</p>
+
+    <p id="rcorners2">Rounded corners!</p>
+
+    <p><img src="UW.jpg" alt="UW" width="50" height="50" align="middle" hspace="20">This is the picture with margin of 20 on each side</p>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+</body>
+<ul>
+    <li>
+        <img src = "daisy.jpg" title = "daisy" style = "width:50px;height:50px;margin:20px">
+        </a>
+    </li>
+    <li>
+        <img src = "YOUTUBE.jpg" title = "Youtube" style = "width:50px;height:50px;margin:20px">
+        </a>
+    </li>
+</ul>
+
+<h2>Text Over Image</h2>
+<p>Place text over an image:</p>
+    <div class="container">
+      <img src="daisy.jpg" alt="Daisy" style="width:100%;">
+    <div class="centered">Centered</div>
+    </div>
+ 
+</html>
