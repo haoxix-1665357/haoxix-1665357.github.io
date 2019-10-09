@@ -10,6 +10,7 @@ margin-right: auto;
 margin-bottom:10px;
 text-align:center;
 background-color: #8E41D5;
+font-style: oblique;
 }
 
 h3{
@@ -23,6 +24,7 @@ p{
 color: white;
 font-family:"Arial";
 font-weight: bold;
+font-style: oblique;
 }
 
 #Header h1{
@@ -30,6 +32,7 @@ font-size:60px;
 font-family: "Passion One";
 color: #FFBC00;
 font-weight:bold;
+font-style: oblique;
 }
 
 #LeftNav{
